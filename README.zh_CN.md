@@ -84,7 +84,7 @@ await ch.close();
 
 ## 提问交流
 
-请到 [egg issues](https://github.com/eggjs/egg/issues) 异步交流。
+请到 [egg issues](https://github.com/zubincheung/egg-amqplib/issues) 移步交流。
 
 ## License
 
