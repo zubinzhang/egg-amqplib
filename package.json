@@ -49,12 +49,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-amqplib.git"
+    "url": "git+https://github.com/zubincheung/egg-amqplib"
   },
   "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
+    "url": "https://github.com/zubincheung/egg-amqplib/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-amqplib#readme",
+  "homepage": "https://github.com/zubincheung/egg-amqplib#readme",
   "author": "Zubin",
   "license": "MIT"
 }
