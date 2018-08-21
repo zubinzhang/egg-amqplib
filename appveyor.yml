@@ -2,6 +2,7 @@ environment:
   matrix:
     - nodejs_version: '8'
     - nodejs_version: '9'
+    - nodejs_version: '10'
 
 install:
   - ps: Install-Product node $env:nodejs_version
@@ -13,3 +14,5 @@ test_script:
   - npm run test
 
 build: off
+services:
+  - rabbitmq
