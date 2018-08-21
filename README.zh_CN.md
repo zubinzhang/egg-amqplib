@@ -9,12 +9,12 @@
 
 [npm-image]: https://img.shields.io/npm/v/egg-amqplib.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/egg-amqplib
-[travis-image]: https://img.shields.io/travis/eggjs/egg-amqplib.svg?style=flat-square
-[travis-url]: https://travis-ci.org/eggjs/egg-amqplib
-[codecov-image]: https://img.shields.io/codecov/c/github/eggjs/egg-amqplib.svg?style=flat-square
-[codecov-url]: https://codecov.io/github/eggjs/egg-amqplib?branch=master
-[david-image]: https://img.shields.io/david/eggjs/egg-amqplib.svg?style=flat-square
-[david-url]: https://david-dm.org/eggjs/egg-amqplib
+[travis-image]: https://img.shields.io/travis/zubincheung/egg-amqplib.svg?style=flat-square
+[travis-url]: https://travis-ci.org/zubincheung/egg-amqplib
+[codecov-image]: https://img.shields.io/codecov/c/github/zubincheung/egg-amqplib.svg?style=flat-square
+[codecov-url]: https://codecov.io/github/zubincheung/egg-amqplib?branch=master
+[david-image]: https://img.shields.io/david/zubincheung/egg-amqplib.svg?style=flat-square
+[david-url]: https://david-dm.org/zubincheung/egg-amqplib
 [snyk-image]: https://snyk.io/test/npm/egg-amqplib/badge.svg?style=flat-square
 [snyk-url]: https://snyk.io/test/npm/egg-amqplib
 [download-image]: https://img.shields.io/npm/dm/egg-amqplib.svg?style=flat-square
