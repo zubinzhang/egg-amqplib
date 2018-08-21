@@ -14,10 +14,20 @@ describe('test/amqplib.test.js', () => {
   after(() => app.close());
   afterEach(mock.restore);
 
-  it('should GET /', () => {
-    return app.httpRequest()
-      .get('/')
-      .expect('hi, amqplib')
+  it('should publish message', () => {
+    return app
+      .httpRequest()
+      .get('/publish')
+      .query({ msg: 'hello world' })
+      .expect('true')
+      .expect(200);
+  });
+
+  it('should consume message', () => {
+    return app
+      .httpRequest()
+      .get('/consume')
+      .expect({ msg: 'hello world' })
       .expect(200);
   });
 });
