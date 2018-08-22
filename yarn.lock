@@ -99,6 +99,18 @@
   dependencies:
     "@types/node" "*"
 
+"@types/amqplib@^0.5.8":
+  version "0.5.8"
+  resolved "http://registry.npm.taobao.org/@types/amqplib/download/@types/amqplib-0.5.8.tgz#c7a4bd668d8761b2c64ae3e35c0e7c65df44d032"
+  dependencies:
+    "@types/bluebird" "*"
+    "@types/events" "*"
+    "@types/node" "*"
+
+"@types/bluebird@*":
+  version "3.5.23"
+  resolved "http://registry.npm.taobao.org/@types/bluebird/download/@types/bluebird-3.5.23.tgz#e805da976b76892b2b2e50eec29e84914c730670"
+
 "@types/body-parser@*":
   version "1.17.0"
   resolved "http://registry.npm.taobao.org/@types/body-parser/download/@types/body-parser-1.17.0.tgz#9f5c9d9bd04bb54be32d5eb9fc0d8c974e6cf58c"
