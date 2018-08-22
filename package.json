@@ -1,6 +1,6 @@
 {
   "name": "egg-amqplib",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Amqp plugin for egg with amqplib",
   "eggPlugin": {
     "name": "amqplib"
