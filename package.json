@@ -42,6 +42,7 @@
   "files": [
     "config",
     "app.js",
+    "index.d.ts",
     "lib"
   ],
   "ci": {
