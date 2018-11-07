@@ -79,7 +79,7 @@ const queueName = 'test';
 
 // Publisher
 const msg = 'test';
-const ch = await this.app.amqp.createChannel();
+const ch = await this.app.amqplib.createChannel();
 await ch.assertQueue(queueName, { durable: false });
 const ok = await ch.sendToQueue(queueName, Buffer.from(msg));
 

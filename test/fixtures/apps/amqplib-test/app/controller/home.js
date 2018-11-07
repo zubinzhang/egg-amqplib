@@ -7,7 +7,7 @@ class HomeController extends Controller {
   async publish() {
     const { msg } = this.ctx.query;
 
-    const ch = await this.app.amqp.createChannel();
+    const ch = await this.app.amqplib.createChannel();
     await ch.assertQueue(queueName, { durable: false });
     const ok = await ch.sendToQueue(queueName, Buffer.from(msg));
     await ch.close();
@@ -17,7 +17,7 @@ class HomeController extends Controller {
   }
 
   async consume() {
-    const ch = await this.app.amqp.createChannel();
+    const ch = await this.app.amqplib.createChannel();
     await ch.assertQueue(queueName, { durable: false });
     const msg = await new Promise(resolve => ch.consume(queueName, msg => resolve(msg)));
 
