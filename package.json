@@ -14,7 +14,7 @@
   ],
   "dependencies": {
     "@types/amqplib": "^0.5.13",
-    "amqplib": "^0.6.0",
+    "amqplib": "^0.7.1",
     "bluebird": "^3.7.2"
   },
   "devDependencies": {
